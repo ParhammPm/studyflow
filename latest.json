@@ -1,0 +1,7 @@
+{
+  "version": "1.10.0",
+  "zip_url": "https://raw.githubusercontent.com/ParhammPm/studyflow/main/releases/studyflow-v1.10.0.zip",
+  "sha256": "911b5f40d161e41870237f6be9bf62512311798b77fd768d944bed712b6bda50",
+  "notes": "One-click auto-update from the StudyFlow GitHub channel (manifest latest.json, SHA-256 verified, never auto-installs; manual file-upload and pasted-URL install stay as fallbacks). App renamed to StudyFlow (page title, header, README). Release packaging script tools/make_release.py builds code-only releases.",
+  "min_version": "1.5.0"
+}

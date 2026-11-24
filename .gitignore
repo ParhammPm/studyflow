@@ -1,0 +1,21 @@
+# User data — never commit (lives in %APPDATA%/KonkurApp by default)
+state.json
+testbook.json
+gemini_key.txt
+gemini_model.txt
+b2_config.json
+calendar_config.json
+calendar_data.json
+update_config.json
+backup_meta.json
+backups/
+code-backups/
+update-staging/
+server.log
+
+# Python
+__pycache__/
+*.pyc
+
+# Local dev / test scratch
+releases/*.tmp
