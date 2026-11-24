@@ -1,7 +1,7 @@
 {
-  "version": "1.10.0",
-  "zip_url": "https://raw.githubusercontent.com/ParhammPm/studyflow/main/releases/studyflow-v1.10.0.zip",
-  "sha256": "911b5f40d161e41870237f6be9bf62512311798b77fd768d944bed712b6bda50",
-  "notes": "One-click auto-update from the StudyFlow GitHub channel (manifest latest.json, SHA-256 verified, never auto-installs; manual file-upload and pasted-URL install stay as fallbacks). App renamed to StudyFlow (page title, header, README). Release packaging script tools/make_release.py builds code-only releases.",
+  "version": "1.11.1",
+  "zip_url": "https://raw.githubusercontent.com/ParhammPm/studyflow/main/releases/studyflow-v1.11.1.zip",
+  "sha256": "7825a800fd8464a9b602128f479f544fa38310de8b84b76dfe4790b2c990f87d",
+  "notes": "Audit fix release (1.11.1): fixes the pull that wiped app edits when Google was unchanged (S-C1), the partial POST /api/state that wiped all progress (S-C2), ignored ICS recurrence exceptions (S-C3), and a failed state load that could overwrite real data with empty defaults (A-C1). Also fixes overnight boxes reporting 0 scheduled minutes (7 boxes, ~9.75 h), recurrence COUNT and duplicate instances, push-tracking and locking races, update-URL https pinning, exam readiness capped by geometry (no book), the dashboard readiness percent, the stale study day after 03:30, test-book reset semantics, plus ~60 minor fixes (i18n clean-up, print CSS, README corrections). No new features; programme data unchanged.",
   "min_version": "1.5.0"
 }
