@@ -1,7 +1,1 @@
-{
-  "version": "1.11.1",
-  "zip_url": "https://raw.githubusercontent.com/ParhammPm/studyflow/main/releases/studyflow-v1.11.1.zip",
-  "sha256": "7825a800fd8464a9b602128f479f544fa38310de8b84b76dfe4790b2c990f87d",
-  "notes": "Audit fix release (1.11.1): fixes the pull that wiped app edits when Google was unchanged (S-C1), the partial POST /api/state that wiped all progress (S-C2), ignored ICS recurrence exceptions (S-C3), and a failed state load that could overwrite real data with empty defaults (A-C1). Also fixes overnight boxes reporting 0 scheduled minutes (7 boxes, ~9.75 h), recurrence COUNT and duplicate instances, push-tracking and locking races, update-URL https pinning, exam readiness capped by geometry (no book), the dashboard readiness percent, the stale study day after 03:30, test-book reset semantics, plus ~60 minor fixes (i18n clean-up, print CSS, README corrections). No new features; programme data unchanged.",
-  "min_version": "1.5.0"
-}
+{"min_version":"1.5.0","notes":"Dashboard density for 17.3-inch laptops (1920x1080): compact type scale and spacing (headings via weight, not size; numbers tabular), restored spacing tokens, collapsible long lists with show-more/show-less and internal scroll, expandable book-section editing, wider content at 1600/1920/2560 px and a slim tier for short viewports. Presentation only — no data, API, sync or behaviour changes.","sha256":"40c31748a05ee5cf3e42b2b095a6d05f891fb6dc7b0a0c705341eb1f819a6952","version":"1.11.2","zip_url":"https://raw.githubusercontent.com/ParhammPm/studyflow/main/releases/studyflow-v1.11.2.zip"}
