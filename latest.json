@@ -1,7 +1,7 @@
 {
-  "version": "1.11.56",
-  "zip_url": "https://raw.githubusercontent.com/ParhammPm/studyflow/main/releases/studyflow-v1.11.56.zip",
-  "sha256": "9dd7d3579a750bef510630f14814d56fcaf7155f3348744f17824dc3c37bc563",
-  "notes": "Bulk-delete old backlog (user request, 27 Nov 2026: «قبل 30 ابان پاک شن», v1.11.56). The Past tab («گذشته») gains a «حذف گروهی عقب‌ماندگی‌ها» section: a Jalali date input defaulting to ۳۰ آبان ۱۴۰۵ (2026-11-21) with a LIVE count of the undone boxes before it and the covered range (programme start → day before the cutoff). Done boxes never match; dateless custom boxes are skipped and reported. Deleting needs an explicit confirm in a modal that shows the exact count, the range, and that a backup is taken first; a versioned backup (POST /api/backup/now) runs before anything is deleted, and a failed backup aborts the delete. Deletion reuses the per-box path (state.deleted / custom-box removal + one state POST), so the linked Google Calendar events are deleted too by the push (v1.11.12); the push runs immediately so the result line reports the Google outcome, and an unresolvable Google deletion stays pending for retry (v1.11.27). Running it again with the same cutoff finds 0 boxes. No other changes. i18n 1314/1314 (18 new keys).",
+  "version": "1.11.57",
+  "zip_url": "https://raw.githubusercontent.com/ParhammPm/studyflow/main/releases/studyflow-v1.11.57.zip",
+  "sha256": "75e46930f2a7cc97fdb529ec7584a35023ac64fe73635ff8f97b1246293220d3",
+  "notes": "IA restructure (Phase 3b of the full audit, v1.11.57). 12 tabs → 10: the Gemini tab becomes a section inside «تحلیل» (model selector, model test lab and saved analyses all still there); the Backup tab becomes a section inside «تنظیمات». Every tab's content stays reachable; the dashboard «تحلیل هفته» card, the quick-nav Gemini chip and the topbar backup pill now jump to the merged sections. G-prefix gains G (Gemini section) and S (Settings); the shortcuts guide lists the new keys. Testbook topic rows gain a «تکالیف این مبحث» link to the assignments tab filtered by that topic. Old #/gemini and #/backup links redirect to the merged sections. Nav fallback texts unified with i18n («برنامه ماهانه»، «عقب‌افتادگی‌ها»، «تحلیل»، «همگام‌سازی گوگل»). No other changes. i18n 1318/1318 (4 new keys).",
   "min_version": "1.5.0"
 }
