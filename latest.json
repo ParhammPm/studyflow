@@ -1,7 +1,7 @@
 {
-  "version": "1.11.58",
-  "zip_url": "https://raw.githubusercontent.com/ParhammPm/studyflow/main/releases/studyflow-v1.11.58.zip",
-  "sha256": "d4fa8780feeadeba6ab16a6c7faec14168e344982062854ea7af3d02d2e265b1",
-  "notes": "Phase 3c of the full audit (v1.11.58) — the last two Phase 3 items. (1) Generalized programme builder: the Dey wizard becomes the next-stage builder — any exam window (Dey, Bahman, Esfand…) with the same engine (budget + school exams + user rules); the user picks the target exams, a date range and the subjects, the plan previews with per-day load vs the cap and pre-existing boxes, and nothing is created until Apply. The Maz 7+8 Dey flow is unchanged (same plan, «دی — » titles). (2) Cross-stage per-subject trends in Analytics: one column per Maz stage, one row per subject — done-rate, useful time and pace per stage from real dated ticks, with a done-rate delta vs the previous stage; stages/subjects with no data show «—» (not-enough-data), never zeros; the exam per-subject table also gains coverage (attempted ÷ budget questions) where the total is known. i18n 1333/1333 (15 new keys).",
+  "version": "1.11.59",
+  "zip_url": "https://raw.githubusercontent.com/ParhammPm/studyflow/main/releases/studyflow-v1.11.59.zip",
+  "sha256": "e3868d981d5e99ca7d8c14add9fb4091f1bde89e14dc0bb0f16d52700e6839ef",
+  "notes": "i18n hygiene only (v1.11.59): removed 3 dead keys left over from 1.11.58 (anCrossStageDone, anCrossStageStage, anCrossStagePaceUnit) — present in fa+en but never called via t() anywhere in the code, so the cross-stage trends card is unchanged. No behaviour change, no feature, no UI change. i18n 1330/1330.",
   "min_version": "1.5.0"
 }
