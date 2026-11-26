@@ -1,7 +1,7 @@
 {
-  "version": "1.11.57",
-  "zip_url": "https://raw.githubusercontent.com/ParhammPm/studyflow/main/releases/studyflow-v1.11.57.zip",
-  "sha256": "75e46930f2a7cc97fdb529ec7584a35023ac64fe73635ff8f97b1246293220d3",
-  "notes": "IA restructure (Phase 3b of the full audit, v1.11.57). 12 tabs → 10: the Gemini tab becomes a section inside «تحلیل» (model selector, model test lab and saved analyses all still there); the Backup tab becomes a section inside «تنظیمات». Every tab's content stays reachable; the dashboard «تحلیل هفته» card, the quick-nav Gemini chip and the topbar backup pill now jump to the merged sections. G-prefix gains G (Gemini section) and S (Settings); the shortcuts guide lists the new keys. Testbook topic rows gain a «تکالیف این مبحث» link to the assignments tab filtered by that topic. Old #/gemini and #/backup links redirect to the merged sections. Nav fallback texts unified with i18n («برنامه ماهانه»، «عقب‌افتادگی‌ها»، «تحلیل»، «همگام‌سازی گوگل»). No other changes. i18n 1318/1318 (4 new keys).",
+  "version": "1.11.58",
+  "zip_url": "https://raw.githubusercontent.com/ParhammPm/studyflow/main/releases/studyflow-v1.11.58.zip",
+  "sha256": "d4fa8780feeadeba6ab16a6c7faec14168e344982062854ea7af3d02d2e265b1",
+  "notes": "Phase 3c of the full audit (v1.11.58) — the last two Phase 3 items. (1) Generalized programme builder: the Dey wizard becomes the next-stage builder — any exam window (Dey, Bahman, Esfand…) with the same engine (budget + school exams + user rules); the user picks the target exams, a date range and the subjects, the plan previews with per-day load vs the cap and pre-existing boxes, and nothing is created until Apply. The Maz 7+8 Dey flow is unchanged (same plan, «دی — » titles). (2) Cross-stage per-subject trends in Analytics: one column per Maz stage, one row per subject — done-rate, useful time and pace per stage from real dated ticks, with a done-rate delta vs the previous stage; stages/subjects with no data show «—» (not-enough-data), never zeros; the exam per-subject table also gains coverage (attempted ÷ budget questions) where the total is known. i18n 1333/1333 (15 new keys).",
   "min_version": "1.5.0"
 }
